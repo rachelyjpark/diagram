@@ -1,0 +1,1448 @@
+body {
+    background-color: #e6e8e9;
+}
+
+.me {
+    z-index: 30;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0.75px black solid;
+}
+
+.exit {
+    display: block;
+    z-index: 30;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    background-color: none;
+    width: 35px;
+    border: 4px black solid; 
+}
+
+.group1 {
+        position: absolute;
+        top: 70px;
+        left: 100px;
+        justify-content: center;
+    
+
+    }
+
+.mediacircle1 {
+    z-index: 20;
+    position: absolute;
+    text-align: center;
+    left: 100px;
+    top: 100px;
+    width: 120px;
+    height: 120px;
+    background-color: #E4E8E8;
+    transform: rotate(-25deg);
+    border-radius: 25px;
+    border-radius:30% 70% 31% 69% / 32% 65% 35% 68% ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+    filter: blur(0.1px);
+
+    }
+
+    .mediacircle1:hover {
+        background-color: #529072;
+    
+        }
+
+.mediacircle2 {
+        position: absolute;
+        text-align: center;
+        left:45px;
+        top: 40px;
+        width: 230px;
+        height: 230px;
+        background-color: #E4E8E8;
+        transform: rotate(-25deg);
+        z-index: 19;
+        border-radius:30% 80% 31% 69% / 32% 65% 40% 68% ;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+        filter: blur(0.2px);
+        }
+
+        .mediacircle2:hover {
+     
+            background-color: #375F4B;
+        
+            }
+
+            
+.mediacircle3 {
+        z-index: 18;
+        position: absolute;
+        text-align: center;
+        left: 30px;
+        top: 25px;
+        width: 270px;
+        height: 270px;
+        background-color: #E4E8E8;
+        transform: rotate(-25deg);
+        border-radius:40% 70% 31% 69% / 32% 65% 35% 70% ;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2), inset 0px 2px 2px rgba(0, 0, 0, 0.06);
+        filter: blur(0.5px);
+    }
+
+    .mediacircle3:hover {
+        background-color:#1B2F26;
+    }
+
+.mediacircle4 {
+        position: absolute;
+        text-align: center;
+        left: 15px;
+        top: 15px;
+        width: 300px;
+        height: 300px;
+        background-color: #E4E8E8;
+        transform: rotate(-25deg);
+        border-radius:40% 70% 31% 69% / 32% 65% 35% 70% ;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 2px 2px rgba(0, 0, 0, 0.06);
+        filter: blur(0.75px);
+
+    }
+
+    .mediacircle4:hover {
+        background-color: #000000;
+    }
+
+
+
+.peoplecircle1 {
+    z-index: 20;
+    position: absolute;
+    text-align: center;
+    left: 1200px;
+    top: 140px;
+    width: 100px;
+    height: 100px;
+    background-color: #E4E8E8;
+    border-radius: 31% 69% 49% 51% / 33% 45% 55% 67%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+    filter: blur(0.1px);
+
+   } 
+
+   .peoplecircle1:hover {
+    background-color: #A58B6D;
+
+    }
+
+
+.peoplecircle2 {
+    position: absolute;
+    text-align: center;
+    left: 1150px;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #E4E8E8;
+    z-index: 19;
+    border-radius:31% 69% 49% 51% / 33% 45% 55% 67%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 2px 2px rgba(0, 0, 0, 0.06);
+    filter: blur(0.75px);
+
+   } 
+   .peoplecircle2:hover {
+     
+    background-color:#392F23;
+
+    }
+
+/* .peoplecircle3 {
+    position: absolute;
+    text-align: center;
+    left: 1130px;
+    top: 85px;
+    width: 240px;
+    height: 240px;
+    background-color: #E4E8E8;
+
+    border-radius:31% 69% 49% 51% / 33% 45% 55% 67%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 2px 2px rgba(0, 0, 0, 0.06);
+        filter: blur(0.75px);
+
+   } 
+   .peoplecircle3:hover {
+    background-color: #4e7c9b;
+} */
+
+
+
+.abstractcircle1 {
+   z-index: 20;
+   position: absolute;
+   text-align: center;
+   left: 800px;
+   top: 370px;
+   width: 100px;
+   height: 200px;
+   background-color: #E4E8E8;
+   transform: rotate(-75deg);
+   border-radius: 13% 87% 69% 31% / 12% 43% 57% 88%;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+   filter: blur(0.1px);
+}
+    .abstractcircle1:hover {
+        background-color: #517CA2;
+
+        }
+
+
+.abstractcircle2 {
+    z-index: 19;
+    position: absolute;
+    text-align: center;
+    left: 755px;
+    top: 355px;
+    width: 200px;
+    height: 300px;
+    background-color: #E4E8E8;
+    transform: rotate(-75deg);
+    border-radius: 15% 87% 75% 31% / 12% 43% 60% 95%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+    filter: blur(0.1px);
+ }
+
+ .abstractcircle2:hover {
+     
+    background-color: #426482;
+
+    }
+
+
+ .abstractcircle3 {
+    z-index: 18;
+    position: absolute;
+    text-align: center;
+    left: 730px;
+    top: 340px;
+    width: 260px;
+    height: 360px;
+    background-color: #E4E8E8;
+    transform: rotate(-75deg);
+    border-radius: 15% 87% 75% 31% / 12% 43% 60% 95%;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+    filter: blur(0.2px);
+ }
+
+ .abstractcircle3:hover {
+    background-color: #314B62;
+}
+
+ .abstractcircle4 {
+    z-index: 17;
+    position: absolute;
+    text-align: center;
+    left: 700px;
+    top: 330px;
+    width: 320px;
+    height: 400px;
+    background-color: #E4E8E8;
+    transform: rotate(-75deg);
+    border-radius: 15% 87% 75% 31% / 12% 43% 60% 95%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+    filter: blur(0.1px);
+ }
+
+ .abstractcircle4:hover {
+    background-color: #213241;
+}
+
+ .abstractcircle5 {
+    z-index: 16;
+    position: absolute;
+    text-align: center;
+    left: 680px;
+    top: 320px;
+    width: 360px;
+    height: 440px;
+    background-color: #E4E8E8;
+    transform: rotate(-75deg);
+    border-radius: 15% 87% 75% 31% / 12% 43% 60% 95%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+    filter: blur(0.1px);
+ }
+
+ .abstractcircle5:hover {
+    background-color:#101921;
+}
+
+ .abstractcircle6 {
+    z-index: 15;
+    position: absolute;
+    text-align: center;
+    left: 660px;
+    top: 300px;
+    width: 420px;
+    height: 500px;
+    background-color: #E4E8E8;
+    transform: rotate(-75deg);
+    border-radius: 15% 87% 75% 31% / 12% 43% 60% 95%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+    filter: blur(0.1px);
+ }
+
+ .abstractcircle6:hover {
+    background-color: #000000;
+}
+ /* .abstractcircle6 {
+    z-index: 17;
+    position: absolute;
+    text-align: center;
+    left: 680px;
+    top: 350px;
+    width: 360px;
+    height: 460px;
+    background-color: #E4E8E8;
+    transform: rotate(-75deg);
+    border-radius: 15% 87% 75% 31% / 12% 43% 60% 95%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2), inset 0px 4px 4px rgba(0, 0, 0, 0.03);
+    filter: blur(0.1px);
+ } */
+
+ /* .grouptext {
+    display: none;
+ } */
+
+ .network {
+     /* font-size: 14px; */
+     /* font-family: 'Times New Roman', Times, serif; */
+     letter-spacing: 1px;
+     font-weight: bold;
+     display: none;
+ }
+
+ .networktext {
+    display: none;
+}
+
+ .music {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none;
+ }
+
+ .film {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none;
+ }
+
+ .news {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none; 
+ }
+
+
+ .direct {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none; 
+ }
+ .indirect {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none; 
+ }
+
+
+ .thoughts {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none; 
+ }
+
+ .imagination {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none; 
+ }
+ 
+ .growth {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none; 
+ }
+
+ .wisdom {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none; 
+ }
+
+ .love {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none; 
+ }
+
+ .freedom {
+    /* font-size: 14px; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: none; 
+ }
+
+ .grouptext {
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+ @keyframes glow {
+    0% { color: rgba(136, 106, 55, 0.05); }
+    50% { color: rgba(40, 107, 79, 0.85);}
+    100% { color: rgba(136, 106, 55, 0.05); }
+  }
+
+@keyframes glow2 {
+    0% { color: rgba(136, 106, 55, 0.05); }
+    50% { color: rgba(119, 94, 48, 0.85);}
+    100% { color: rgba(136, 106, 55, 0.05); }
+  }
+  
+  
+  @keyframes bug1 {
+    0% {left: 10%; top: 23%; }
+    50% {left: 40%; top: 45%%; }
+    100% {left: 10%; top: 23%; }
+  }
+  
+  @keyframes bug2 {
+    0% {left: 53%; top: 70%; }
+    50% {left: 30; top: 23%%; }
+    100% {left: 53%; top: 70%; }
+  }
+  @keyframes bug3 {
+    0% {left: 70%; top: 8%; }
+    50% {left: 30%; top: 75%; }
+    100% {left: 70%; top: 8%; }
+  }
+  
+  @keyframes bug4 {
+    0% {left: 22%; top: 40%; }
+    50% {left: 80%; top: 20%; }
+    100% {left: 22%; top: 40%; }
+  }
+
+  @keyframes bug5 {
+    0% {left: 15%; top: 25%; }
+    50% {left: 54%; top: 53%; }
+    100% {left: 15%; top: 25%; }
+  }
+
+  @keyframes bug6 {
+    0% {left: 60%; top: 50%; }
+    50% {left: 20%; top: 30%; }
+    100% {left: 60%; top: 50%; }
+  }
+  @keyframes bug7 {
+    0% {left: 70%; top: 32%; }
+    50% {left: 24%; top: 63%; }
+    100% {left: 70%; top: 32%; }
+  }
+  @keyframes bug8 {
+    0% {left: 10%; top: 80%; }
+    50% {left: 68%; top: 23%; }
+    100% {left: 10%; top:80%; }
+  }
+  @keyframes bug9 {
+    0% {left: 5%; top: 24%; }
+    50% {left: 42%; top: 82%; }
+    100% {left: 5%; top:24%; }
+  }
+  @keyframes bug10 {
+    0% {left: 58%; top: 84%; }
+    50% {left: 12%; top: 22%; }
+    100% {left: 58%; top:84%; }
+  }
+  
+  
+  
+/* .networkinfo {
+    display: none;
+} */
+
+#instagram {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 25px;
+    position: absolute;
+    z-index: 30;
+    left: 60%;
+    top: 63%;
+    animation-name: glow, bug1;
+    animation-duration: 4s, 18s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+
+}
+
+#instagram:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+
+#tiktok {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 30;
+    left: 13%;
+    top: 90%;
+     animation-name: glow, bug2;
+    animation-duration: 4s, 23s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+
+}
+
+#tiktok:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+
+  #linkedin {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+     animation-name: glow, bug3;
+    animation-duration: 4s, 23s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+  }
+
+  #linkedin:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+
+  #behance {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 100px;
+    position: absolute;
+    z-index: 30;
+    left: 50%;
+    top: 24%;
+    animation-name: glow, bug4;
+    animation-duration: 6s, 18s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+  }
+  #behance:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+
+  #pinterest {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug5;
+    animation-duration: 2s, 14s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+  }
+  #pinterest:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+
+  #dribble {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 60px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug6;
+    animation-duration: 4s, 20s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+  }
+
+  #dribble:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+  /* .networkinfo:nth-child(1) {
+    left: 60%;
+    top: 63%;
+    animation-name: bug1;
+    animation-duration: 4s, 18s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+  
+  } */
+
+#interstellar {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 60px;
+    position: absolute;
+    z-index: 30;
+    left: 60%;
+    top: 63%;
+    animation-name: glow, bug1;
+    animation-duration: 5s, 16s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#interstellar:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#insideout {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 30;
+    left: 13%;
+    top: 90%;
+     animation-name: glow, bug4;
+    animation-duration: 10s, 23s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#insideout:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#soul {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 20px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+     animation-name: glow, bug5;
+    animation-duration: 4s, 12s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#soul:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#intime {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 36px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug6;
+    animation-duration: 7s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#intime:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#monsters {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug7;
+    animation-duration: 2s, 18s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#monsters:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#morning {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 24px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug8;
+    animation-duration: 12s, 14s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#morning:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+
+/* .musicinfo {
+    display: none;
+} */
+
+#classical {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 90px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug2;
+    animation-duration: 2s, 14s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#classical:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#indie {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 60px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug3;
+    animation-duration: 2s, 14s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#indie:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#lofi {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 85px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug4;
+    animation-duration: 2s, 14s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#lofi:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#rb {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug5;
+    animation-duration: 2s, 14s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#rb:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#pop {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    position: absolute;
+    z-index: 30;
+    left: 27%;
+    top: 63%;
+     animation-name: glow, bug6;
+    animation-duration: 2s, 14s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#pop:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+/* .newsinfo {
+    display: none;
+} */
+
+#dailymail {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 50px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+     animation-name: glow, bug5;
+    animation-duration: 22s, 20s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+}
+#dailymail:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#cnn {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 20px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+     animation-name: glow, bug8;
+    animation-duration: 30s, 10s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#cnn:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#nytimes {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 16px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+    animation-name: glow, bug10;
+    animation-duration: 12s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#nytimes:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#buzzfeed {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 21px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+     animation-name: glow, bug3;
+    animation-duration: 7s, 19s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#buzzfeed:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#business {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+     animation-name: glow, bug4;
+    animation-duration: 18s, 15s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#business:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#vox {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 24px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+     animation-name: glow, bug5;
+    animation-duration: 24s, 6s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#vox:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+
+#guardian {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+     animation-name: glow, bug6;
+    animation-duration: 11s, 10s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#guardian:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#newyorker {
+display: none;
+font-family: 'Times New Roman', Times, serif;
+letter-spacing: 0.3px;
+font-size: 36px;
+position: absolute;
+z-index: 30;
+left: 89%;
+top: 3%;
+ animation-name: glow, bug7;
+animation-duration: 15s, 6s;
+animation-timing-function: ease-in-out, ease-in-out;
+animation-iteration-count: infinite, infinite; 
+}
+#newyorker:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+
+/* .filminfo {
+    display: none;
+} */
+
+/* .direct{
+    display: none;
+} */
+
+#heidi {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 46px;
+    position: absolute;
+    z-index: 30;
+    left: 89%;
+    top: 3%;
+     animation-name: glow2, bug7;
+    animation-duration: 12s, 18s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;  
+}
+#heidi:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#mom {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 24px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug5;
+    animation-duration: 5s, 20s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#mom:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#dad {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug1;
+    animation-duration: 2s, 28s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#dad:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#ping {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 70px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug3;
+    animation-duration: 1s, 12s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#ping:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#kelly {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 100px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug1;
+    animation-duration: 7s, 25s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#kelly:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#jarrett {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 42px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug4;
+    animation-duration: 14s, 10s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#jarrett:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#beasley {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 52px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug6;
+    animation-duration: 7s, 30s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#beasley:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#june {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 62px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug8;
+    animation-duration: 2s, 16s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#june:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#fallbranding {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 75px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug10;
+    animation-duration: 3s, 28s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#fallbranding:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+/* .indirectinfo {
+    display: none;
+} */
+#turrell {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 24px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug3;
+    animation-duration: 7s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#turrell:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#nadya {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 26px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug4;
+    animation-duration: 7s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#nadya:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#becky {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug5;
+    animation-duration: 7s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#becky:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#lomski {
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug6;
+    animation-duration: 7s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#lomski:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#machado{
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug7;
+    animation-duration: 7s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#machado:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#sukriti{
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug8;
+    animation-duration: 7s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#sukriti:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#yoon{
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug9;
+    animation-duration: 7s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#yoon:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+#jilee{
+    display: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 30;
+    left: 9%;
+    top: 3%;
+     animation-name: glow2, bug10;
+    animation-duration: 7s, 26s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite; 
+}
+#jilee:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+
+@keyframes glowing {
+    0% { background: rgba(136, 106, 55, 0.05); }
+    50% { background: rgba(223, 185, 69, 0.85);}
+    100% { background: rgba(136, 106, 55, 0.05); }
+  }
+  
+  @keyframes ball1 {
+    0% {left: 60%; top: 63%; }
+    50% {left: 10%; top: 45%%; }
+    100% {left: 60%; top: 63%; }
+  }
+  
+  @keyframes ball2 {
+    0% {left: 13%; top: 90%; }
+    50% {left: 23; top: 10%%; }
+    100% {left: 13%; top: 3%; }
+  }
+  @keyframes ball3 {
+    0% {left: 89%; top: 3%; }
+    50% {left: 90%; top: 75%; }
+    100% {left: 13%; top: 3%; }
+  }
+  
+  @keyframes ball4 {
+    0% {left: 22%; top: 40%; }
+    50% {left: 80%; top: 25%; }
+    100% {left: 40%; top: 22%; }
+  }
+  
+  
+  .firefly {
+      z-index: 30;
+      display: none;
+    position: absolute;
+    width: 1.8rem; /*1.8 * 10 =18px */
+    height: 1.8rem;
+    background: rgba(136, 106, 55, 0.05);
+    border-radius: 50%;
+    filter: blur(3px);
+    /* animation: glow 4s ease-in-out infinite; */
+  }
+  
+  
+  .firefly:hover{
+    animation-play-state: running, paused;
+    cursor: grabbing;
+  }
+  
+  
+  .firefly:nth-child(1) {
+    z-index: 30;
+    display: none;
+    left: 60%;
+    top: 63%;
+    animation-name: glowing, ball1;
+    animation-duration: 4s, 18s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    animation-delay: 4s, 2s; /* first: start glowing, second: start moving */
+  }
+  
+  .firefly:nth-child(2) {
+    z-index: 30;
+    display: none;
+    left: 13%;
+    top: 90%;
+     animation-name: glowing, ball2;
+    animation-duration: 4s, 23s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+     animation-delay: 5s, 8s;
+  }
+  
+  .firefly:nth-child(3) {
+    z-index: 30;
+    display: none;
+    left: 89%;
+    top: 3%;
+      animation-name: glowing, ball3;
+    animation-duration: 4s, 20s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+     animation-delay:  10s, 8s;
+  }
+  
+  .firefly:nth-child(4) {
+    z-index: 30;
+    display: none;
+    left: 22%;
+    top: 40%;
+        animation-name: glowing, ball4;
+    animation-duration: 4s, 20s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+     animation-delay: 18s, 20s;
+  }
+  
+  
+.svg1 {
+    position: fixed;
+    top: 52%;
+}
+
+.svg2 {
+    position: fixed;
+    top: 55%;
+    left: 20%;
+}
+
+.svg3 {
+    position: fixed;
+    top: 10%;
+    left: 60%;
+}
+.svg4 {
+    position: fixed;
+    top: 62%;
+    left: 75%;
+}
+.svg5 {
+    position: fixed;
+    top: 0%;
+    left: 28%;
+}
+.svg6 {
+    position: fixed;
+    top: 20%;
+    left: 80%;
+}
+
+
+
+
+/* 
+.firefly {
+    position: absolute;
+    width: 1.8rem; 1.8 * 10 =18px */
+    /* height: 1.8rem;
+    background: rgba(136, 106, 55, 0.05);
+    border-radius: 50%;
+    filter: blur(3px); */
+    /* animation: glow 4s ease-in-out infinite; */
+  /* } */
+  
+
+
+
+
+
+
